@@ -5,9 +5,11 @@
 :root {
     --primary-font:"Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #416a8e; /* blue */
+    --primary-color: #3a2620; /* Dark Brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* Light Blue */
 }
-
 
 /* Global Styles */
 
@@ -18,4 +20,8 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }
