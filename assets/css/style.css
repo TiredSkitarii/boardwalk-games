@@ -98,6 +98,13 @@ h2 {
     border: none;
 }
 
+/* Join Events section */
+
+#student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* Footer / Contact */
 
 #contact {
@@ -154,6 +161,10 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
+    #student-discount {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
 }
 
 /* Large screnns - Laptops and upwards (992px +) */
@@ -161,6 +172,10 @@ h2 {
     /* makes services cards same height */
     #services .card-body {
         min-height: auto;
+    }
+    #student-discount {
+        margin-right: 15%;
+        margin-left: 15%;
     }
 }
 
@@ -170,6 +185,10 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+     #student-discount {
+        margin-right: 20%;
+        margin-left: 20%;
+     }
 }
 
 /* XXL Screens - Large Desktops and upwards (1400px +) */
@@ -177,5 +196,9 @@ h2 {
     /* makes services cards same height */
     #services .card-body {
         min-height: 195x;
+    }
+      #student-discount {
+        margin-right: 25%;
+        margin-left: 25%;
     }
 }
