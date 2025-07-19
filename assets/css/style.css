@@ -78,3 +78,37 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+/* Media Queries */
+
+/* Medium screens - Tablets and upwards (768px +) */
+@media screen and (min-width: 768px) {
+    /* makes services cards same height */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* Large screnns - Laptops and upwards (992px +) */
+@media screen and (min-width: 992px) {
+    /* makes services cards same height */
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* XL Screens - Desktops and upwards (1200px +) */
+@media screen and (min-width: 1200px) {
+    /* makes services cards same height */
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* XXL Screens - Large Desktops and upwards (1400px +) */
+@media screen and (min-width: 1400px) {
+    /* makes services cards same height */
+    #services .card-body {
+        min-height: 195x;
+    }
+}
