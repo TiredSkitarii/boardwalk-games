@@ -184,7 +184,7 @@ h2 {
 @media screen and (min-width: 1400px) {
     /* makes services cards same height */
     #services .card-body {
-        min-height: 195x;
+        min-height: 195px;
     }
       #student-discount {
         margin-right: 25%;
